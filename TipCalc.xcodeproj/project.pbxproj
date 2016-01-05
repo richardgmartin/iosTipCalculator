@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79518EE41C3C74A300CDFF51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79518EE31C3C74A300CDFF51 /* main.m */; };
+		79518EE71C3C74A300CDFF51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79518EE61C3C74A300CDFF51 /* AppDelegate.m */; };
+		79518EEA1C3C74A300CDFF51 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79518EE91C3C74A300CDFF51 /* ViewController.m */; };
+		79518EED1C3C74A300CDFF51 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79518EEB1C3C74A300CDFF51 /* Main.storyboard */; };
+		79518EEF1C3C74A300CDFF51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79518EEE1C3C74A300CDFF51 /* Assets.xcassets */; };
+		79518EF21C3C74A300CDFF51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79518EF01C3C74A300CDFF51 /* LaunchScreen.storyboard */; };
+		79518EFB1C3C76C200CDFF51 /* TipCalc.m in Sources */ = {isa = PBXBuildFile; fileRef = 79518EFA1C3C76C200CDFF51 /* TipCalc.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		79518EDF1C3C74A200CDFF51 /* TipCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79518EE31C3C74A300CDFF51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79518EE51C3C74A300CDFF51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		79518EE61C3C74A300CDFF51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		79518EE81C3C74A300CDFF51 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		79518EE91C3C74A300CDFF51 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		79518EEC1C3C74A300CDFF51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79518EEE1C3C74A300CDFF51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79518EF11C3C74A300CDFF51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79518EF31C3C74A300CDFF51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79518EF91C3C76C200CDFF51 /* TipCalc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipCalc.h; sourceTree = "<group>"; };
+		79518EFA1C3C76C200CDFF51 /* TipCalc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipCalc.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79518EDC1C3C74A200CDFF51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79518ED61C3C74A200CDFF51 = {
+			isa = PBXGroup;
+			children = (
+				79518EE11C3C74A300CDFF51 /* TipCalc */,
+				79518EE01C3C74A200CDFF51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79518EE01C3C74A200CDFF51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79518EDF1C3C74A200CDFF51 /* TipCalc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79518EE11C3C74A300CDFF51 /* TipCalc */ = {
+			isa = PBXGroup;
+			children = (
+				79518EE51C3C74A300CDFF51 /* AppDelegate.h */,
+				79518EE61C3C74A300CDFF51 /* AppDelegate.m */,
+				79518EE81C3C74A300CDFF51 /* ViewController.h */,
+				79518EE91C3C74A300CDFF51 /* ViewController.m */,
+				79518EF91C3C76C200CDFF51 /* TipCalc.h */,
+				79518EFA1C3C76C200CDFF51 /* TipCalc.m */,
+				79518EEB1C3C74A300CDFF51 /* Main.storyboard */,
+				79518EEE1C3C74A300CDFF51 /* Assets.xcassets */,
+				79518EF01C3C74A300CDFF51 /* LaunchScreen.storyboard */,
+				79518EF31C3C74A300CDFF51 /* Info.plist */,
+				79518EE21C3C74A300CDFF51 /* Supporting Files */,
+			);
+			path = TipCalc;
+			sourceTree = "<group>";
+		};
+		79518EE21C3C74A300CDFF51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79518EE31C3C74A300CDFF51 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79518EDE1C3C74A200CDFF51 /* TipCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79518EF61C3C74A300CDFF51 /* Build configuration list for PBXNativeTarget "TipCalc" */;
+			buildPhases = (
+				79518EDB1C3C74A200CDFF51 /* Sources */,
+				79518EDC1C3C74A200CDFF51 /* Frameworks */,
+				79518EDD1C3C74A200CDFF51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TipCalc;
+			productName = TipCalc;
+			productReference = 79518EDF1C3C74A200CDFF51 /* TipCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79518ED71C3C74A200CDFF51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "richard martin";
+				TargetAttributes = {
+					79518EDE1C3C74A200CDFF51 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 79518EDA1C3C74A200CDFF51 /* Build configuration list for PBXProject "TipCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79518ED61C3C74A200CDFF51;
+			productRefGroup = 79518EE01C3C74A200CDFF51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79518EDE1C3C74A200CDFF51 /* TipCalc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79518EDD1C3C74A200CDFF51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79518EF21C3C74A300CDFF51 /* LaunchScreen.storyboard in Resources */,
+				79518EEF1C3C74A300CDFF51 /* Assets.xcassets in Resources */,
+				79518EED1C3C74A300CDFF51 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79518EDB1C3C74A200CDFF51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79518EFB1C3C76C200CDFF51 /* TipCalc.m in Sources */,
+				79518EEA1C3C74A300CDFF51 /* ViewController.m in Sources */,
+				79518EE71C3C74A300CDFF51 /* AppDelegate.m in Sources */,
+				79518EE41C3C74A300CDFF51 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		79518EEB1C3C74A300CDFF51 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79518EEC1C3C74A300CDFF51 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79518EF01C3C74A300CDFF51 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79518EF11C3C74A300CDFF51 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79518EF41C3C74A300CDFF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		79518EF51C3C74A300CDFF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79518EF71C3C74A300CDFF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TipCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.richardgmartin.TipCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		79518EF81C3C74A300CDFF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TipCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.richardgmartin.TipCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79518EDA1C3C74A200CDFF51 /* Build configuration list for PBXProject "TipCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79518EF41C3C74A300CDFF51 /* Debug */,
+				79518EF51C3C74A300CDFF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79518EF61C3C74A300CDFF51 /* Build configuration list for PBXNativeTarget "TipCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79518EF71C3C74A300CDFF51 /* Debug */,
+				79518EF81C3C74A300CDFF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79518ED71C3C74A200CDFF51 /* Project object */;
+}
